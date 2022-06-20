@@ -20,9 +20,7 @@ spec:
           description: IngressCheckSum is the Schema for the ingresschecksums API
           properties:
             apiVersion:
-              description: 'APIVersion defines the versioned schema of this representation
-              of an object. Servers should convert recognized schemas to the latest
-              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+              description: 'APIVersion defines the versioned schema of this representation of an object. '
               type: string
             kind:
               description: 'Kind is a string value representing the REST resource this object represents. '
@@ -36,9 +34,7 @@ spec:
                   description: Checksum value which generated using a hash method
                   type: string
                 ids:
-                  description: 'The IDs of all ingress are used to calculate the
-                  checksum. When the checksum is inconsistent, it can be used
-                  to compare the differences'
+                  description: 'The IDs of all ingress are used to calculate the checksum. When the checksum is inconsistent, it can be used to compare the differences'
                   items:
                     type: string
                   type: array
