@@ -38,9 +38,9 @@ spec:
                   description: Checksum value which generated using a hash method
                   type: string
                 ids:
-                  description: The IDs of all ingress are used to calculate the
+                  description: 'The IDs of all ingress are used to calculate the
                   checksum. When the checksum is inconsistent, it can be used
-                  to compare the differences
+                  to compare the differences'
                   items:
                     type: string
                   type: array
